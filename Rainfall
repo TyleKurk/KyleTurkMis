@@ -1,0 +1,28 @@
+#program calculating and displaying average rainfall over certain years(nested loops)
+#rainfall and month count
+total_rain = 0
+months_tracked = 0
+#define list of names for user prompts
+monthsinyear= ['January','February','March','April','May','June','July',
+               'August','September','October','November','December']
+
+#ask user to input how many months of rainfall they wish to track
+num_years = int(input('Enter the number of years you wish to track rainfall: '))
+
+for year in range(num_years):
+    print(f'\nYear {year + 1}: ')
+    #loop thru months now
+    for month in monthsinyear:
+        rainfall = int(input(f'Enter the amount of rain in inches that fell in {month}: '))
+        total_rain += rainfall
+        months_tracked += 1
+#calculate average rainfall
+averagerainfall= total_rain/months_tracked
+
+#display results
+
+print(f'For {months_tracked} months: ')
+print(f'Total rainfall: {total_rain:,.2f} inches')
+print(f'Average rainfall per month: {averagerainfall:,.2f} inches')
+
+
