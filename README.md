@@ -7,4 +7,7 @@
 
 #Random utilizes the random library to simulate a rock, paper, scissors game between two people for a user defined number of rounds. It uses random selection to determine each players throw, and compares the results to decide the winner of each round. At the end of the specified rounds, the program tallys up a winner. 
 
-#saleTax calculates sales tax using a 
+#saleTax calculates sales tax using a fixed state and county tax rate. The user inputs a the purchase amountm and the program computes the states tax, county tax, total tax and the final sale amount. Then is displayed in a summary. 
+
+#Tax Rate does a similar thing as SaleTax, 
+
