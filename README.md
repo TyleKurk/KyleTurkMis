@@ -5,4 +5,6 @@
 
 #Rainfall calculates the average monthly rainfall over a user specified number of years. Using more nested loops, it prompts the user to enter the rainfall data for each month in each year, then computes the total as well as the average amount of rainfall for all months tracked. 
 
-#Random utilizes the random library 
+#Random utilizes the random library to simulate a rock, paper, scissors game between two people for a user defined number of rounds. It uses random selection to determine each players throw, and compares the results to decide the winner of each round. At the end of the specified rounds, the program tallys up a winner. 
+
+#saleTax calculates sales tax using a 
