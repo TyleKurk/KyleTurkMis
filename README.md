@@ -10,3 +10,7 @@
 #saleTax calculates sales tax using a fixed state and county tax rate. The user inputs a the purchase amountm and the program computes the states tax, county tax, total tax and the final sale amount. Then is displayed in a summary. 
 
 #Kilometer converter uses a GUI to display a window that converts distances from KM to Miles. The user enters a distnace in KM and then using a Button from TKinter Library, the program calculates the equivalent  distance in miles and displays it. 
+
+#Tkinter is a program using the tkinter library to create a GUI that allows users to enter three tests scores and then calculate an average. Each score in entered in a seperate input field, and when the "average" button is clicked the program computes the mean and displays it. 
+
+#Wikipedia
