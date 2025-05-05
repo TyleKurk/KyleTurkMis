@@ -13,4 +13,5 @@
 
 #Tkinter is a program using the tkinter library to create a GUI that allows users to enter three tests scores and then calculate an average. Each score in entered in a seperate input field, and when the "average" button is clicked the program computes the mean and displays it. 
 
-#Wikipedia
+#Calcultor is a program using tkinter and creates a working calculator with a functioning GUI. 
+
