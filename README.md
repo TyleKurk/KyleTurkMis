@@ -9,5 +9,4 @@
 
 #saleTax calculates sales tax using a fixed state and county tax rate. The user inputs a the purchase amountm and the program computes the states tax, county tax, total tax and the final sale amount. Then is displayed in a summary. 
 
-#Tax Rate does a similar thing as SaleTax, 
-
+#Kilometer converter uses a GUI to display a window that converts distances from KM to Miles. The user enters a distnace in KM and then using a Button from TKinter Library, the program calculates the equivalent  distance in miles and displays it. 
