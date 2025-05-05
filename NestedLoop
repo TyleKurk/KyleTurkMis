@@ -1,0 +1,26 @@
+# Initialize variables for step tracking.
+totalSteps = 0
+daysTracked = 0
+
+# Define list of day names for user prompts.
+daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+
+# Prompt the user for the number of weeks they're tracking.
+numWeeks = int(input('How many weeks are you tracking your steps for? '))
+
+# Loop through each week.
+for week in range(numWeeks):
+    print(f'\nWeek {week + 1}:')
+    # Loop through each day of the week.
+    for day in daysOfWeek:
+        steps = int(input(f'Enter steps for {day}: '))
+        totalSteps += steps
+        daysTracked += 1
+
+# Calculate average steps taken per day.
+averageSteps = totalSteps / daysTracked
+
+# Display total and average step count.
+print(f'In {daysTracked} days:')
+print(f'Total steps: {totalSteps}')
+print(f'Average steps per day: {averageSteps:.0f}')
